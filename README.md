@@ -2,9 +2,6 @@
 
 ## How to use the scripts
 
-- Currently I've posted them in my personal repo, if needed we can take it to a common repo where 
-	everybody can clone, use and contribute to it.
-
 ### To use this project, simply clone the project.
 
 ```
