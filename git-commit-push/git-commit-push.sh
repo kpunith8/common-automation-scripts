@@ -52,7 +52,8 @@ function read_commit_msg() {
 # Function to commit the code
 function commit() {
 	# Space must be preserved between brackets [ ]
-	if [ ${#commit_message} -gt 4 ]; then 
+	if [ ${#commit_message} -gt 4 ]; then
+		echo -en "\n"
 		git commit -m "$commit_message"
 		echo -en "\n"
 	else 
